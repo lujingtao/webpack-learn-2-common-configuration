@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev-watch": "npx webpack --watch --mode development",
+    "build-watch": "npx webpack --watch --mode production",
+    "dev": "npx webpack --mode development",
+    "build": "npx webpack --mode production"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.8.1"
   }
 }
