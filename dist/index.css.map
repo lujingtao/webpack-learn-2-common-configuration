@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/index.scss"],"names":[],"mappings":"AACA;EACI,WAAU;EACV,eAHW","file":"index.css","sourcesContent":["$fontSize: 50px;\r\nh1{\r\n    color:blue;\r\n    font-size:$fontSize;\r\n}\r\n"],"sourceRoot":""}

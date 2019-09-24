@@ -7,7 +7,8 @@
     "dev-watch": "npx webpack --watch --mode development",
     "build-watch": "npx webpack --watch --mode production",
     "dev": "npx webpack --mode development",
-    "build": "npx webpack --mode production"
+    "build": "npx webpack --mode production",
+    "server": "npx webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,14 @@
     "webpack-cli": "^3.3.7"
   },
   "dependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack-dev-server": "^3.8.1"
   }
 }
